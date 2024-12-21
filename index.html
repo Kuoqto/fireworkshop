@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Omnifood is a fictitious premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
+	<link rel="stylesheet" type="text/css" href="vendors/css/node_modules/normalize.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+	<title>Азбука фейерверков</title>
+	<link rel="icon" href="firework.ico" type="image/x-icon">
+</head>
+<body>
+	
+	<!-- Heading section -->
+
+	<header>
+		<nav>
+			<div class="row"> <!-- Keep within 1140px width -->
+				<ul class="main-nav js--main-nav">  
+					<li><a href="#features">О нас</a></li>
+					<li><a href="#cities">Наши магазины</a></li>
+				</ul>
+				<a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a> <!-- No href -->
+			</div>
+		</nav>
+		<div class="hero-text">
+			<h1>Захватывающие фейерверки<br>на все случаи жизни</h1>
+			<a class="btn btn-full js--scroll-to-plans" href="#cities">Купить</a>
+			<a class="btn btn-ghost js--scroll-to-start" href="#">Подробнее</a>
+		</div>
+	</header>
+	
+	<!-- Features section -->
+	
+	<section class="features js--features" id="features"> <!-- Use for sticky nav activation --> 
+		<div class="row">
+			<h2>Азбука фейерверков</h2> <!-- Longer dash + only use one h1, so using h2 -->
+			<p class="long-copy">
+				Приветствуем в "Азбуке фейерверков" – вашем проводнике в мир праздника и огней!
+				Мы знаем, как сделать любое событие незабываемым.
+				Вам больше не нужно тратить время на поиск идеальных фейерверков — доверьтесь нам,
+				мы настоящие эксперты в создании магии на вашем празднике!
+			</p>
+		</div>
+		<!-- Grid using col -->
+		<div class="row js--wp-1">
+			<div class="col span-1-of-4 box">
+				<!-- Adding icons -->
+				<i class="ion-ios-calendar-outline icon-big"></i>
+				<h3>Работаем 24/7</h3>
+				<p>В любое время года мы готовы осветить ваш праздник яркими красками. Наш ассортимент доступен 365 дней в году, и мы поможем вам выбрать идеальные фейерверки для любого случая!</p>
+			</div>
+			<div class="col span-1-of-4 box">
+				<i class="ion-ios-stopwatch-outline icon-big"></i>
+				<h3>Всего за 20 минут</h3>
+				<p>Вы всего в 20 минутах от того, чтобы получить фейерверки, которые впечатлят каждого. Мы предлагаем быструю доставку и удобный сервис, чтобы ваш праздник состоялся вовремя.</p>
+			</div>
+			<div class="col span-1-of-4 box">
+				<i class="ion-android-checkbox-outline icon-big"></i>
+				<h3>100% качество</h3>
+				<p>Все наши фейерверки сертифицированы и безопасны. Мы выбираем только проверенных производителей, чтобы вы могли наслаждаться яркими шоу без забот.</p>
+			</div>
+			<div class="col span-1-of-4 box">
+				<i class="ion-ios-cart-outline icon-big"></i>
+				<h3>Выбор за вами</h3>
+				<p>Мы не ограничиваем вашу фантазию! В нашем каталоге более 100 видов фейерверков: от небольших салютов до грандиозных шоу. Выберите то, что идеально подойдет для вашего праздника!</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Meals section -->
+
+	<section class="meals">
+		<!-- First row showcase meals -->
+		<ul class="meals-showcase clearfix"> <!-- Clears it's child li element's floats -->
+			<li>
+				<!-- Contains an image or caption for an image, also use figcaption -->
+				<figure class="meal-photo">
+					<img src="resources/img/1.jpg" alt="Firework Example">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/2.jpg" alt="Firework Example">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/3.jpg" alt="Firework Example">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/4.jpg" alt="Firework Example">
+				</figure>
+			</li>
+		</ul>
+		<!-- Second row showcase meals -->
+		<ul class="meals-showcase clearfix">
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/5.jpg" alt="Firework Example">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/6.jpg" alt="Firework Example">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/7.jpg" alt="Firework Example">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-photo">
+					<img src="resources/img/8.jpg" alt="Firework Example">
+				</figure>
+			</li>
+		</ul>
+	</section>
+
+	
+	<!-- Cities section-->
+
+	<section class="cities" id="cities">
+		<div class="row">
+			<h2>Наши магазины в Нижневартовске</h2>
+		</div>
+		<div class="row js--wp-3">
+			<div class="col span-1-of-4 box">
+				<img src="resources/img/europa-city.png" alt="europa-city">
+				<h3>МФК Европа-Сити</h3>
+				<div class="city-features">
+					<i class="ion-ios-location icon-small"></i>
+					ул. Чапаева, 27
+				</div>
+				<div class="city-features">
+					<i class="ion-android-time icon-small"></i>
+					10:00–22:00
+				</div>
+				<div class="city-features">
+					<i class="ion-ios-telephone icon-small"></i>
+					+7 (123) 456-7890
+				</div>
+			</div>
+			<div class="col span-1-of-4 box">
+				<img src="resources/img/yugra-mall.png" alt="YugraMall">
+				<h3>ТРЦ ЮграМолл</h3>
+				<div class="city-features">
+					<i class="ion-ios-location icon-small"></i>
+					ул. Ленина, 15П
+				</div>
+				<div class="city-features">
+					<i class="ion-android-time icon-small"></i>
+					10:00–22:00
+				</div>
+				<div class="city-features">
+					<i class="ion-ios-telephone icon-small"></i>
+					+7 (3466) 12-34-56
+				</div>
+			</div>
+			<div class="col span-1-of-4 box">
+				<img src="resources/img/green-park.png" alt="GreenPark">
+				<h3>ТРЦ Green Park</h3>
+				<div class="city-features">
+					<i class="ion-ios-location icon-small"></i>
+					ул. Ленина, 8
+				</div>
+				<div class="city-features">
+					<i class="ion-android-time icon-small"></i>
+					10:00–22:00
+				</div>
+				<div class="city-features">
+					<i class="ion-ios-telephone icon-small"></i>
+					+7 (3466) 78-90-12
+				</div>
+			</div>
+			<div class="col span-1-of-4 box">
+				<img src="resources/img/imperia-t.png" alt="Imperia-T">
+				<h3>ТЦ Империя-Т</h3>
+				<div class="city-features">
+					<i class="ion-ios-location icon-small"></i>
+					ул. Нефтяников, 19
+				</div>
+				<div class="city-features">
+					<i class="ion-android-time icon-small"></i>
+					08:00–21:00
+				</div>
+				<div class="city-features">
+					<i class="ion-ios-telephone icon-small"></i>
+					+7 (3466) 45-67-89
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonials section -->
+
+	<section class="testimonials">
+		<div class="row">
+			<h2>Наши клиенты в восторге</h2>
+			<div class="row">
+				<div class="col span-1-of-3">
+					<blockquote>
+						Азбука фейерверков — это просто волшебство! Я организую праздники и всегда выбираю их для своих мероприятий. Теперь я не представляю ни одного шоу без этих фейерверков!
+					<cite><img src="resources/img/customer-1.jpg" alt="Ivan Prokofiev">Иван Прокофьев</cite>
+					</blockquote>
+				</div>
+				<div class="col span-1-of-3">
+					<blockquote>
+						Доступно, безопасно и просто потрясающе! Мы заказывали фейерверки для семейного праздника, и это был восторг! Весь наш город теперь знает, где брать салюты!
+					<cite><img src="resources/img/customer-2.jpg" alt="Selima Gurbanova">Сэлима Гурбанова</cite>
+					</blockquote>
+				</div>
+				<div class="col span-1-of-3">
+					<blockquote>
+						Искал быстрый и качественный сервис для организации свадебного шоу. Попробовал несколько компаний, но 'Азбука фейерверков' — вне конкуренции! Лучший выбор в регионе.
+					<cite><img src="resources/img/customer-3.jpg" alt="Anton Dvoretskiy">Антон Дворецкий</cite>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer section -->
+
+	<footer>
+		<div class="row">
+			<p>Copyright &copy; 2024 by Vugar Rasulov. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="vendors/js/jquery.waypoints.min.js"></script>
+	<script src="resources/js/scripts.js"></script> <!-- Sticky nav -->
+</body>
+</html>
